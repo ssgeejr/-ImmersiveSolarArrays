@@ -1,0 +1,19 @@
+module ISA
+{
+
+	model SolarPanelModel
+	{
+		mesh = WorldItems/SolarPanelModel,
+		texture = WorldItems/SolarPanelModel,
+		scale = 0.007,
+	}
+
+	model SolarMagModel
+	{
+		mesh = WorldItems/Magazine,
+		texture = WorldItems/MagazineSolar,
+		scale =  0.4,
+	}
+
+
+}

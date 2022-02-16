@@ -1,0 +1,168 @@
+module ISA
+{
+    imports
+    {
+        Base
+
+    }
+
+	    item SolarPanel
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	= Solar Panel,
+        Icon	=	SolarPanel,
+        MetalValue = 1,
+        WorldStaticModel = ISA.SolarPanelModel,
+    }
+
+	    item ISAInverter
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	= Inverter,
+        Icon	=	CarBatteryCharger,
+        MetalValue = 1,
+        WorldStaticModel = CarBatteryCharger,
+    }
+
+	    item DeepCycleBattery
+    {
+        Weight	=	6,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	200Ah Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+	VehicleType =   9384579,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	    item SuperBattery
+    {
+        Weight	=	8,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	400Ah Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+	VehicleType =   9384579,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	    item DIYBattery
+    {
+        Weight	=	7,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	DIY Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+	VehicleType =   9384579,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	    item 50AhBattery
+    {
+        Weight	=	5,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	50Ah Car Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	    item 75AhBattery
+    {
+        Weight	=	5,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	75Ah Car Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	    item 100AhBattery
+    {
+        Weight	=	5,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	100Ah Car Battery,
+        Icon	=	CarBattery,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        MechanicsItem = FALSE,
+        WorldStaticModel = CarBattery,
+    }
+
+	item PowerBank
+	{
+	Type = Moveable,
+	WorldObjectSprite = solarmod_tileset_01_0,
+	DisplayName		= Moveable,
+	}
+
+	item SolarPanelFlat
+	{
+	Type = Moveable,
+	WorldObjectSprite = solarmod_tileset_01_8,
+	DisplayName		= Moveable,
+	}
+	item SolarPanelWall
+	{
+	Type = Moveable,
+	WorldObjectSprite = solarmod_tileset_01_6,
+	DisplayName		= Moveable,
+	}
+	item SolarPanelMounted
+	{
+	Type = Moveable,
+	WorldObjectSprite = solarmod_tileset_01_9,
+	DisplayName		= Moveable,
+	}
+	item SolarFailsafe
+	{
+	Type = Moveable,
+	WorldObjectSprite = solarmod_tileset_01_15,
+	DisplayName		= Moveable,
+	}
+	
+	
+	
+	
+}
